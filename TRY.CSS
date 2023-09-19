@@ -1,0 +1,242 @@
+.main
+{
+    background-color: black;
+    height:fit-content;
+    width: fit-content;
+}
+.navbar-collapse
+{
+    float: left;
+}
+
+
+.navbar-brand{
+    margin-left: 13rem;
+
+}
+
+
+    
+.quote{
+  
+    margin-left:-13rem;
+    margin-top: 0rem;
+}
+.btn
+{
+  margin-left: 23rem;
+    margin-top: 3rem;
+    
+}
+
+.pos {position:relative;margin:0 auto;}
+
+.down-arrow {height:60px;width:60px;border:4px solid #FFF;border-radius:100%;}
+
+.down-arrow:before,.down-arrow:after {content:'';position:absolute;top:26px;width:18px;border:2px solid #FFF;transition:all 0.3s;-webkit-transition:all 0.3s;}
+
+.down-arrow:before {transform:rotateZ(45deg);-webkit-transform:rotateZ(45deg);left:9px;}
+.down-arrow:after {transform:rotateZ(-45deg);-webkit-transform:rotateZ(-45deg);left:22px;}
+
+.down-arrow:hover {cursor:pointer;border-width:0;}
+.down-arrow:hover:before,.down-arrow:hover:after {top:40px;}
+.down-arrow:hover:before {left:13px;}
+.down-arrow:hover:after {left:26px;}
+.aboutme{
+
+}
+
+
+.abtme{
+    margin-top: 15rem;    
+}
+.aboutme {
+    margin: 5rem;
+}
+.abtmeh{
+    padding-bottom: 2rem;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+  }
+  
+  .fa-twitter {
+   
+    color: white;
+  }
+  .fa-instagram {
+    
+    color: white;
+  }
+  .fa-github {
+    background:black;
+    color: white;
+  }
+  .left{
+    float: left;
+    padding-right: 17rem;
+  }
+  .right{
+    float: left;
+  }
+  .contactme{
+margin: 5rem;
+}
+.cotactme1{
+    padding-bottom: 1rem;
+}
+.social{
+    padding-bottom: 1rem;
+}
+.fa{
+    ont-size: 40px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.btn1{
+    background-color: #981CEB ; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+        background-color: white; 
+        color: black; 
+        border: 2px solid #981CEB;
+      }
+      .button1:hover {
+        background-color: #981CEB;
+        color: white;
+      }
+      .p1{
+        color:#fff;
+        text-align: center;
+    
+      }
+      .p2{
+        color:#fff;
+        text-align: center;
+    
+      }
+      .project{
+        color: #981CEB;
+        padding-bottom: 1rem;
+      }
+      .p3{
+        color: #FFF;
+      }
+      .btn2 {
+        margin-left: 1rem;
+        margin-top: 0rem;
+    }
+    .p4{
+        color: #FFF;
+    }
+    .project1{
+        padding: 1rem;
+    }
+    .card-img-top {
+        width: 100%;
+        border-top-left-radius: calc(0.25rem - 1px);
+        border-top-right-radius: calc(0.25rem - 1px);
+        height: 8rem;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #981CEB;
+        border-color: #981CEB;
+    }
+    .tools{
+      margin-top: 26rem;
+    margin-left: 17rem;
+}
+}
+    }
+    .frright{
+      
+    }
+    .img-fluid {
+      max-width: 177%;
+      height: auto;
+      margin-left: 0rem;
+      margin-top: 5rem;
+  }
+  
+  
+  
+  /* Style the vertical navigation bar */
+.vertical-navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  padding: 15px;
+}
+
+.vertical-navbar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align items towards the bottom */
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.vertical-navbar li {
+  display: flex;
+  align-items: flex-end; /* Align text towards the bottom */
+  margin-bottom: 10px;
+}
+
+.vertical-navbar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.vertical-navbar a:hover {
+  background-color: #555;
+}
+
+/* Rotate the text by 90 degrees */
+.vertical-navbar a span {
+  display: inline-block;
+  transform: rotate(-90deg);
+  transform-origin: left center;
+  white-space: nowrap;
+  padding: 53px 0; /* Adjust the padding as needed */
+  margin-left: 2rem;
+}
+.vertical-navbar li:first-child {
+  margin-bottom: 80px;
+}
+
+.vertical-navbar li:first-child a span {
+  padding: 9rem;
+}
+.navbar-nav .nav-link.navbar-link {
+  color: #fff; /* Set the desired text color for inactive links */
+  background-color: transparent; /* Remove background color */
+}
+
+.welcome-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the image within welcome-content */
+
+  .welcome-content img {
+    max-width: 180%;
+    height: auto;
+    margin-right: ;
+}
